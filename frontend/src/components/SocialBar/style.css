@@ -1,0 +1,8 @@
+.socialbar-redes {
+    opacity: 60%;
+    transition: all 0.4s;
+}
+
+.socialbar-redes:hover {
+    opacity: 100%;
+}

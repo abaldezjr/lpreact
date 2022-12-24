@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-saibamais {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    /*text-shadow:coral 1px -1px, coral -1px 1px, coral 1px 1px, coral -1px -1px;*/
+}
+
+.carousel-saibamais:hover {
+    color: #DDDDDD;
+}

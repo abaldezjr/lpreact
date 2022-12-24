@@ -1,0 +1,20 @@
+.videoresponsivo-embedcontainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .videoresponsivo-embedcontainer iframe,
+  .videoresponsivo-embedcontainer object,
+  .videoresponsivo-embedcontainer embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
