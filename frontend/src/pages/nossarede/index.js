@@ -1,6 +1,8 @@
 import './style.css';
 
-import { Link } from "react-router-dom";
+import salvador from '../../assets/img/nossarede/salvador.png';
+import omega from '../../assets/img/nossarede/wrap.gif';
+import maloca from '../../assets/img/nossarede/maloca.jpg';
 
 const Nossarede = () => {
     return (<>
@@ -22,17 +24,19 @@ const Nossarede = () => {
                                 <img
                                     height="250"
                                     style={{ objectFit: "cover" }}
-                                    src="./assets/img/nossarede/salvador.png"
+                                    src={salvador}
                                     className="card-img-top"
-                                    alt="omega"
+                                    alt="salvador"
                                 />
                                 <div className="card-body">
                                     <h5 className="card-title">Salvador</h5>
                                     <p className="card-text">José Luis Soares Salvador.</p>
                                     <div className="d-grid gap-2">
-                                        <Link
+                                        <a
                                             className="btn btn-dark"
-                                            to="https://salvador34.webnode.page/">Acesse o site</Link>
+                                            target="_blank" rel="noreferrer"
+                                            href="https://salvador34.webnode.page/"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +48,7 @@ const Nossarede = () => {
                             <div className="card h-100">
                                 <img
                                     height="250" style={{ objectFit: "cover" }}
-                                    src="./assets/img/nossarede/wrap.gif"
+                                    src={omega}
                                     className="card-img-top"
                                     alt="omega"
                                 />
@@ -52,9 +56,11 @@ const Nossarede = () => {
                                     <h5 className="card-title">Omega</h5>
                                     <p className="card-text">Sparks Omega.</p>
                                     <div className="d-grid gap-2">
-                                        <Link
+                                        <a
                                             className="btn btn-dark"
-                                            to="https://sparks-omega.neocities.org/">Acesse o site</Link>
+                                            target="_blank" rel="noreferrer"
+                                            href="https://sparks-omega.neocities.org/"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +73,7 @@ const Nossarede = () => {
                                 <img
                                     height="250"
                                     style={{ objectFit: "cover" }}
-                                    src="./assets/img/nossarede/maloca.jpg"
+                                    src={maloca}
                                     className="card-img-top"
                                     alt="omega"
                                 />
@@ -75,9 +81,11 @@ const Nossarede = () => {
                                     <h5 className="card-title">Maloca</h5>
                                     <p className="card-text">Maloca colaborativa.</p>
                                     <div className="d-grid gap-2">
-                                        <Link
+                                        <a
                                             className="btn btn-dark"
-                                            to="https://www.facebook.com/malocacolaborativa">Acesse o site</Link>
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.facebook.com/malocacolaborativa"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>

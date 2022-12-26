@@ -2,19 +2,29 @@ import './style.css';
 
 import { Link } from "react-router-dom";
 
+import carrosselImage1 from '../../assets/img/carrossel/1.png';
+import carrosselImage2 from '../../assets/img/carrossel/2.png';
+import carrosselImage3 from '../../assets/img/carrossel/3.png';
+
+import lojaImage1 from '../../assets/img/loja/1.png';
+import lojaImage2 from '../../assets/img/loja/2.png';
+import lojaImage3 from '../../assets/img/loja/3.png';
+
 const Home = () => {
 
     const carrossel1 = {
-        backgroundImage: 'url(./assets/img/carrossel/1.png)'
+        backgroundImage: `url(${carrosselImage1})`
     }
 
     const carrossel2 = {
-        backgroundImage: 'url(./assets/img/carrossel/2.png)'
+        backgroundImage: `url(${carrosselImage2})`
     }
 
     const carrossel3 = {
-        backgroundImage: 'url(./assets/img/carrossel/3.png)'
+        backgroundImage: `url(${carrosselImage3})`
     }
+
+
 
     return (<>
 
@@ -32,17 +42,17 @@ const Home = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active" style={carrossel1}>
                         <div className="carousel-caption">
-                            <h3><a className="btn btn-dark" href="./quemsomos.html">Saiba mais</a></h3>
+                            <Link className="btn btn-dark" to='/quemsomos'>Saiba mais</Link>
                         </div>
                     </div>
                     <div className="carousel-item" style={carrossel2}>
                         <div className="carousel-caption">
-                            <h3><a className="btn btn-dark" href="./projetopampraieiro.html">Saiba mais</a></h3>
+                            <Link className="btn btn-dark" to='/projetopampraieiro'>Saiba mais</Link>
                         </div>
                     </div>
                     <div className="carousel-item" style={carrossel3}>
                         <div className="carousel-caption">
-                            <h3><a className="btn btn-dark" href="./projetopampraieiro.html">Saiba mais</a></h3>
+                            <Link className="btn btn-dark" to='/projetopampraieiro'>Saiba mais</Link>
                         </div>
                     </div>
                 </div>
@@ -82,12 +92,16 @@ const Home = () => {
                         {/*<!-- CANECAS -->*/}
                         <div className="col">
                             <div className="card h-100">
-                                <img src="./assets/img/loja/1.png" className="card-img-top" alt="Canecas" />
+                                <img src={lojaImage1} className="card-img-top" alt="Canecas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Canecas</h5>
                                     <p className="card-text">Coleção completa no instagram.</p>
                                     <div className="d-grid gap-2">
-                                        <Link className="btn btn-dark" to="https://www.instagram.com/nauproducoes/">Acesse o site</Link>
+                                        <a
+                                            className="btn btn-dark"
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.instagram.com/nauproducoes/"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>
@@ -98,12 +112,16 @@ const Home = () => {
 
                         <div className="col">
                             <div className="card h-100">
-                                <img src="./assets/img/loja/2.png" className="card-img-top" alt="Roupas" />
+                                <img src={lojaImage2} className="card-img-top" alt="Roupas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Roupas</h5>
                                     <p className="card-text">Coleção completa no instagram.</p>
                                     <div className="d-grid gap-2">
-                                        <Link className="btn btn-dark" to="https://www.instagram.com/nauproducoes/">Acesse o site</Link>
+                                        <a
+                                            className="btn btn-dark"
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.instagram.com/nauproducoes/"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +132,16 @@ const Home = () => {
                         {/*<!-- BOLSAS -->*/}
                         <div className="col">
                             <div className="card h-100">
-                                <img src="./assets/img/loja/3.png" className="card-img-top" alt="Bolsas" />
+                                <img src={lojaImage3} className="card-img-top" alt="Bolsas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Bolsas</h5>
                                     <p className="card-text">Coleção completa no instagram.</p>
                                     <div className="d-grid gap-2">
-                                        <Link className="btn btn-dark" to="https://www.instagram.com/nauproducoes/">Acesse o site</Link>
+                                        <a
+                                            className="btn btn-dark"
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.instagram.com/nauproducoes/"
+                                        >Acesse o site</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,11 +163,11 @@ const Home = () => {
                 <iframe
                     title="mapa cassino"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19102.950809072103!2d-52.167975346065454!3d-32.178447337055935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511860738879071%3A0x4667872adf766709!2sCassino%20-%20Rio%20Grande%2C%20RS%2C%2096206-040!5e0!3m2!1spt-BR!2sbr!4v1668567361264!5m2!1spt-BR!2sbr"
-                    width="100%" 
-                    height="450" 
-                    style={{ border: "0px" }} 
+                    width="100%"
+                    height="450"
+                    style={{ border: "0px" }}
                     loading="lazy"
-                    ></iframe>
+                ></iframe>
             </div>
             {/*<!-- FIM DO GOOGLE MAPS -->*/}
 

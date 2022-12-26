@@ -1,5 +1,7 @@
 import './style.css';
 
+import perfilAngelina from '../../assets/img/quemsomos/perfil-angelina.png';
+
 const Quemsomos = () => {
     return (<>
 
@@ -47,7 +49,7 @@ const Quemsomos = () => {
                     <div>
                         <img
                             className="featurette-image img-fluid mx-auto img-thumbnail"
-                            src="./assets/img/quemsomos/perfil-angelina.png"
+                            src={perfilAngelina}
                             alt="Angelina Oliveira Produtora Cultural" />
                     </div>
                     {/* <!-- FIM DAS FOTOS --> */}

@@ -3,13 +3,14 @@ import './style.css';
 import { Link } from "react-router-dom";
 import SocialBar from '../SocialBar';
 
+import camarao from '../../assets/img/camarao-logo.png';
 
 const Navbar = () => {
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
                 <Link className="navbar-brand" to='/'>
-                    <img className='navbar-customlogo' src='./assets/img/camarao-logo.png' alt="Nau Produções" />
+                    <img className='navbar-customlogo' src={camarao} alt="Nau Produções" />
                 </Link>
                 <Link className="navbar-brand" to='/'>NAU Produções</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
