@@ -1,8 +1,10 @@
 .socialbar-redes {
-    opacity: 60%;
+    opacity: 70%;
     transition: all 0.4s;
+    font-size: 20px;
 }
 
 .socialbar-redes:hover {
     opacity: 100%;
+    font-size: 25px;
 }
