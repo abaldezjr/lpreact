@@ -5,14 +5,14 @@ const Projetopampraieiro = () => {
         <main>
 
             {/*<!-- SEÇÃO PROJETO PAMPRAIEIRO -->*/}
-            <section className="bg-light py-5">
+            <section className="py-5">
                 <div className="container px-5 my-5 px-5">
                     <h2 style={{ marginBottom: "35px" }} className="display-4">PROJETO PAMPRAIEIRO</h2>
 
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
+                    {/*<p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
                         perspiciatis quisquam fugit
                         voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
+    dignissimos.</p>*/}
 
                     <div className="videoresponsivo-embedcontainer">
                         <iframe
@@ -40,7 +40,7 @@ const Projetopampraieiro = () => {
                     </div>
 
 
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
+                    {/*<p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
                         perspiciatis quisquam fugit
                         voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
                         dignissimos.</p>
@@ -59,7 +59,7 @@ const Projetopampraieiro = () => {
                     <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
                         perspiciatis quisquam fugit
                         voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
+dignissimos.</p>*/}
 
                 </div>
             </section>

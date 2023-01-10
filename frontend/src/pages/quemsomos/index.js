@@ -9,12 +9,12 @@ const Quemsomos = () => {
 
             {/*<!-- SEÇÃO QUEM SOMOS -->*/}
 
-            <section className="bg-light py-5">
+            <section className="py-5">
                 <div className="container px-5 my-5 px-5">
                     <h2 style={{ marginBottom: "35px" }} className="display-4">QUEM SOMOS</h2>
 
                     {/* <!-- TEXTO --> */}
-                    <p className="lead text-justify">"Nau Produções</p>
+                    <p className="lead text-justify">"Sur Produções</p>
                     <p className="lead text-justify">O que é</p>
                     <p className="lead text-justify">
                         Espaço digital para divulgação de trabalhos culturais e colaborativos realizados pela produtora e

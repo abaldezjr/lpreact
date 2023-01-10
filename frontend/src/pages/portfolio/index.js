@@ -1,7 +1,7 @@
 const Portfolio = (props) => {
 
     return (<>
-        <section class="bg-light py-5">
+        <section class="py-5">
             <div class="container px-5 my-5 px-5">
                 <div class="row featurette">
                     <div class="col-md-7">

@@ -11,7 +11,7 @@ const Nossarede = () => {
 
             {/*<!-- SEÇÃO NOSSA REDE -->*/}
 
-            <section className="bg-light py-5">
+            <section className="py-5">
 
                 <div className="container px-5 my-5 px-5">
 

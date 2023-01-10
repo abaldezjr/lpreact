@@ -100,7 +100,7 @@ const Home = () => {
                                         <a
                                             className="btn btn-dark"
                                             target="_blank" rel="noreferrer"
-                                            href="https://www.instagram.com/nauproducoes/"
+                                            href="https://www.instagram.com/surproducoes/"
                                         >Acesse o site</a>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@ const Home = () => {
                                         <a
                                             className="btn btn-dark"
                                             target="_blank" rel="noreferrer"
-                                            href="https://www.instagram.com/nauproducoes/"
+                                            href="https://www.instagram.com/surproducoes/"
                                         >Acesse o site</a>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ const Home = () => {
                                         <a
                                             className="btn btn-dark"
                                             target="_blank" rel="noreferrer"
-                                            href="https://www.instagram.com/nauproducoes/"
+                                            href="https://www.instagram.com/surproducoes/"
                                         >Acesse o site</a>
                                     </div>
                                 </div>

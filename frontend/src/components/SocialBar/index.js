@@ -21,12 +21,12 @@ const Socialbar = () => {
                 </a>
             </li>
             <li className="ms-3">
-                <a className="link-dark" target="_blank" rel="noreferrer" href="https://www.instagram.com/nauproducoes/">
+                <a className="link-dark" target="_blank" rel="noreferrer" href="https://www.instagram.com/surproducoes/">
                     <BsFacebook className='socialbar-redes'/>
                 </a>
             </li>
             <li className="ms-3">
-                <a className="link-dark" target="_blank" rel="noreferrer" href="https://www.instagram.com/nauproducoes/">
+                <a className="link-dark" target="_blank" rel="noreferrer" href="https://www.instagram.com/surproducoes/">
                     <BsInstagram className='socialbar-redes'/>
                 </a>
             </li>
