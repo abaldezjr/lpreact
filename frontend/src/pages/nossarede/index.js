@@ -4,7 +4,7 @@ import salvador from '../../assets/img/nossarede/salvador.png';
 import omega from '../../assets/img/nossarede/wrap.gif';
 import maloca from '../../assets/img/nossarede/maloca.jpg';
 
-const Nossarede = () => {
+export default function Nossarede () {
     return (<>
 
         <main>
@@ -101,5 +101,3 @@ const Nossarede = () => {
 
     </>);
 }
-
-export default Nossarede;

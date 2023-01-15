@@ -1,6 +1,6 @@
-const Sucesso = () => {
-    return (<>
 
+export default function Sucesso () {
+    return (<>
         <section className="py-5">
             <div className="container px-5 my-5 px-5">
                 <div className="row featurette">
@@ -13,5 +13,3 @@ const Sucesso = () => {
 
     </>);
 }
-
-export default Sucesso;

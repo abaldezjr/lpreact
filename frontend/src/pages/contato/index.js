@@ -1,6 +1,6 @@
 import './style.css';
 
-const Contato = () => {
+export default function Contato () {
     return (<>
         <section className="py-5">
             <div className="container px-5 my-5 px-5">
@@ -10,10 +10,9 @@ const Contato = () => {
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-6">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/abaldezjr@gmail.com"
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/producoessur@gmail.com"
                             method="POST">
                                 <input type="hidden" name="_next" value="http://localhost:3000/sucesso" />
-                            <input type="hidden" name="_cc" value="abaldezjr@outlook.com" />
                             <input type="hidden" name="_autoresponse"
                                 value="Recebemos sua mensagem, obrigado pelo contato e logo responderemos!" />
                             <div className="form-floating mb-3">
@@ -36,7 +35,7 @@ const Contato = () => {
                                 <div className="invalid-feedback" data-sb-feedback="name:required">O nome é obrigatório.</div>
                             </div>
                             <div className="form-floating mb-3">
-                                <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..."
+                                <textarea className="form-control" id="message" name="message" type="text" placeholder="Enter your message here..."
                                     style={{ height: "10rem" }} data-sb-validations="required" required></textarea>
                                 <label for="message">Mensagem</label>
                                 <div className="invalid-feedback" data-sb-feedback="message:required">A mensagem é obrigatória.</div>
@@ -50,5 +49,3 @@ const Contato = () => {
         </section>
     </>);
 }
-
-export default Contato;

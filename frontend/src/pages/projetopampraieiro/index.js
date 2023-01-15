@@ -1,6 +1,8 @@
 import './style.css';
 
-const Projetopampraieiro = () => {
+import { Link } from 'react-router-dom';
+
+export default function Projetopampraieiro () {
     return (<>
         <main>
 
@@ -9,20 +11,17 @@ const Projetopampraieiro = () => {
                 <div className="container px-5 my-5 px-5">
                     <h2 style={{ marginBottom: "35px" }} className="display-4">PROJETO PAMPRAIEIRO</h2>
 
-                    {/*<p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-    dignissimos.</p>*/}
-
-                    <div className="videoresponsivo-embedcontainer">
-                        <iframe
-                            src="https://www.youtube.com/embed/KYbzTjrEi1w"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen="">
-                        </iframe>
-                    </div>
+                    <p class="lead text-justify">
+                        Conheça o projeto pampraieiro e a diversidade de artistas e canções praianas que imprimem a estética
+                        PamPraieira,
+                        conectando Rio Grande do Sul, Uruguai e Argentina através de sua costa Pampiana.
+                    </p>
+                    <p class="lead text-justify">
+                        Acesse o blog Pampraieiro
+                    </p>
+                    <p>
+                        <Link class=" btn btn-dark" to='/blog'>Blog Pampraieiro</Link>
+                    </p>
 
                     <div className="videoresponsivo-embedcontainer">
                         <iframe
@@ -39,27 +38,15 @@ const Projetopampraieiro = () => {
                         </iframe>
                     </div>
 
-
-                    {/*<p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-                        dignissimos.</p>
-                    <p className="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi debitis, quis neque
-                        perspiciatis quisquam fugit
-                        voluptas nesciunt labore at vero? Illo atque quidem necessitatibus voluptates voluptate distinctio, est minima
-dignissimos.</p>*/}
+                    <div className="videoresponsivo-embedcontainer">
+                        <iframe
+                            src="https://www.youtube.com/embed/KYbzTjrEi1w"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="">
+                        </iframe>
+                    </div>
 
                 </div>
             </section>
@@ -69,5 +56,3 @@ dignissimos.</p>*/}
 
     </>);
 }
-
-export default Projetopampraieiro;

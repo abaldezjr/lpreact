@@ -6,11 +6,13 @@ import carrosselImage1 from '../../assets/img/carrossel/1.png';
 import carrosselImage2 from '../../assets/img/carrossel/2.png';
 import carrosselImage3 from '../../assets/img/carrossel/3.png';
 
-import lojaImage1 from '../../assets/img/loja/1.png';
-import lojaImage2 from '../../assets/img/loja/2.png';
-import lojaImage3 from '../../assets/img/loja/3.png';
+import lojaImage1 from '../../assets/img/loja/1.jfif';
+import lojaImage2 from '../../assets/img/loja/2.jfif';
+import lojaImage3 from '../../assets/img/loja/3.jfif';
+import lojaImage4 from '../../assets/img/loja/4.jfif';
+import lojaImage5 from '../../assets/img/loja/5.jfif';
 
-const Home = () => {
+export default function Home () {
 
     const carrossel1 = {
         backgroundImage: `url(${carrosselImage1})`
@@ -87,7 +89,7 @@ const Home = () => {
                         <p className="lead">Confira os nossos produtos.</p>
                     </div>
 
-                    <div className="row row-cols-1 row-cols-md-3 g-3">
+                    <div className="row row-cols-1 row-cols-md-5 g-5">
 
                         {/*<!-- CANECAS -->*/}
                         <div className="col">
@@ -95,7 +97,7 @@ const Home = () => {
                                 <img src={lojaImage1} className="card-img-top" alt="Canecas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Canecas</h5>
-                                    <p className="card-text">Coleção completa no instagram.</p>
+                                    <p className="card-text">Veja no instagram.</p>
                                     <div className="d-grid gap-2">
                                         <a
                                             className="btn btn-dark"
@@ -115,7 +117,7 @@ const Home = () => {
                                 <img src={lojaImage2} className="card-img-top" alt="Roupas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Roupas</h5>
-                                    <p className="card-text">Coleção completa no instagram.</p>
+                                    <p className="card-text">Veja no instagram.</p>
                                     <div className="d-grid gap-2">
                                         <a
                                             className="btn btn-dark"
@@ -135,7 +137,7 @@ const Home = () => {
                                 <img src={lojaImage3} className="card-img-top" alt="Bolsas" />
                                 <div className="card-body">
                                     <h5 className="card-title">Bolsas</h5>
-                                    <p className="card-text">Coleção completa no instagram.</p>
+                                    <p className="card-text">Veja no instagram.</p>
                                     <div className="d-grid gap-2">
                                         <a
                                             className="btn btn-dark"
@@ -147,6 +149,45 @@ const Home = () => {
                             </div>
                         </div>
                         {/*<!-- FIM BOLSAS -->*/}
+
+                        {/*<!-- CALENDARIOS -->*/}
+                        <div className="col">
+                            <div className="card h-100">
+                                <img src={lojaImage4} className="card-img-top" alt="Calendarios" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Calendários</h5>
+                                    <p className="card-text">Veja no instagram.</p>
+                                    <div className="d-grid gap-2">
+                                        <a
+                                            className="btn btn-dark"
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.instagram.com/surproducoes/"
+                                        >Acesse o site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/*<!-- FIM CALENDARIOS -->*/}
+
+                        {/*<!-- BRINCOS -->*/}
+                        <div className="col">
+                            <div className="card h-100">
+                                <img src={lojaImage5} className="card-img-top" alt="Brincos" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Acessórios</h5>
+                                    <p className="card-text">Veja no instagram.</p>
+                                    <div className="d-grid gap-2">
+                                        <a
+                                            className="btn btn-dark"
+                                            target="_blank" rel="noreferrer"
+                                            href="https://www.instagram.com/surproducoes/"
+                                        >Acesse o site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/*<!-- FIM BRINCOS -->*/}
+
 
                     </div>
                     {/*<!-- FIM DA LOJA -->*/}
@@ -175,5 +216,3 @@ const Home = () => {
 
     </>);
 }
-
-export default Home;

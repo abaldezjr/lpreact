@@ -5,7 +5,7 @@ import SocialBar from '../SocialBar';
 
 import camarao from '../../assets/img/camarao-logo.png';
 
-const Navbar = () => {
+export default function Navbar() {
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
@@ -26,11 +26,9 @@ const Navbar = () => {
                         <li className="nav-item"><Link className="nav-link" to='/nossarede'>Nossa rede</Link></li>
                         <li className="nav-item"><Link className="nav-link" to='/contato'>Contato</Link></li>
                     </ul>
-                    <SocialBar/>
+                    <SocialBar />
                 </div>
             </div>
         </nav>
     </>);
 }
-
-export default Navbar;
